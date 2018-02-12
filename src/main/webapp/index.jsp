@@ -1,6 +1,9 @@
-<%@taglib prefix="jl" uri="" %>
+<%@taglib prefix="jl" uri="http://week3exercise/tags" %>
 <html>
+<head>
+    <title>Testing a custoom tag</title>
+</head>
 <body>
-<h2>Hello World!</h2>
+<h2><jl:Hello /></h2>
 </body>
 </html>
